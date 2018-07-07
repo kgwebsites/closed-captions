@@ -1,5 +1,6 @@
 {
   "name": "webspeech-cc",
+  "homepage": "https://kgwebsites.github.io/closed-captions",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
@@ -15,7 +16,10 @@
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test --env=jsdom",
+    "deploy": "gh-pages -d build",
     "eject": "react-scripts eject"
   },
-  "devDependencies": {}
+  "devDependencies": {
+    "gh-pages": "^1.2.0"
+  }
 }
